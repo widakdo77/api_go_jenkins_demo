@@ -10,7 +10,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	port := ":8001"
+	port := ":8070"
 
 	// Print a message indicating the server is starting
 	fmt.Printf("Starting server on port%s\n", port)
